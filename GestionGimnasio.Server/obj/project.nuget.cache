@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "E5fNr/o/zQs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Juampi\\Downloads\\Programacion\\c#\\GestionGimnasio.Server\\GestionGimnasio.Server\\GestionGimnasio.Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Juampi\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\10.0.11\\microsoft.aspnetcore.components.webassembly.10.0.11.nupkg.sha512",
+    "C:\\Users\\Juampi\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.server\\10.0.11\\microsoft.aspnetcore.components.webassembly.server.10.0.11.nupkg.sha512",
+    "C:\\Users\\Juampi\\.nuget\\packages\\microsoft.jsinterop.webassembly\\10.0.11\\microsoft.jsinterop.webassembly.10.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

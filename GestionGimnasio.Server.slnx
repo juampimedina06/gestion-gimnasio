@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="GestionGimnasio.Cliente/GestionGimnasio.Cliente.csproj" />
+  <Project Path="GestionGimnasio.Server/GestionGimnasio.Server.csproj" />
+</Solution>

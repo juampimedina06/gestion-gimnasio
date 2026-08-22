@@ -1,0 +1,4 @@
+C:\Users\Juampi\Downloads\Programacion\c#\GestionGimnasio.Server\GestionGimnasio.Cliente\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Juampi\Downloads\Programacion\c#\GestionGimnasio.Server\GestionGimnasio.Cliente\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Juampi\Downloads\Programacion\c#\GestionGimnasio.Server\GestionGimnasio.Cliente\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Juampi\Downloads\Programacion\c#\GestionGimnasio.Server\GestionGimnasio.Cliente\obj\Debug\net10.0\staticwebassets.build.json
