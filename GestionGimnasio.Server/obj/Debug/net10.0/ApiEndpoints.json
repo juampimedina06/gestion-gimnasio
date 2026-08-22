@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "GestionGimnasio.Server.Controllers.UsuarioController",
+    "ContainingType": "GestionGimnasio.Server.Controllers.AdminController",
     "Method": "Get",
-    "RelativePath": "api/usuario",
+    "RelativePath": "admin/lista-usuarios",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

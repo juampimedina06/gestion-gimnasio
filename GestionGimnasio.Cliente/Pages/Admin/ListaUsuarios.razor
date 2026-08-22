@@ -1,0 +1,23 @@
+﻿@page "/admin/lista-usuarios"
+@inject HttpClient http
+
+<h3>Lista de usuarios</h3>
+
+<p>@mensaje</p>
+
+@code {
+    private string mensaje = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            mensaje = await http.GetStringAsync("/admin/lista-usuarios");
+        }
+        catch (Exception ex)
+        {
+            mensaje = $"Error al inicializar: {ex.Message}";
+        }
+    }
+
+}

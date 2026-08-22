@@ -1,4 +1,8 @@
 <Solution>
+  <Project Path="GestionGimnasio.BD/GestionGimnasio.BD.csproj" Id="b3f6cfa4-0332-4d48-b855-227acc4bfcfd" />
   <Project Path="GestionGimnasio.Cliente/GestionGimnasio.Cliente.csproj" />
+  <Project Path="GestionGimnasio.Repositorio/GestionGimnasio.Repositorio.csproj" Id="6412855d-6a84-447a-910d-679605c80c00" />
   <Project Path="GestionGimnasio.Server/GestionGimnasio.Server.csproj" />
+  <Project Path="GestionGimnasio.Servicio/GestionGimnasio.Servicio.csproj" Id="f521bd5b-8a1d-4228-9db6-726a1b865c14" />
+  <Project Path="GestionGimnasio.Shared/GestionGimnasio.Shared.csproj" Id="98df310e-bb6a-4a41-8e94-3e57461a69f9" />
 </Solution>

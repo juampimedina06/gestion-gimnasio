@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "GestionGimnasio.Cliente",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-MJAuMFBun238BOnsa2R1StE6IY2rgc2QQ9nELSFioGw=",
+    "hash": "sha256-sUN4RbnpIJ03Ut/OEbleZXGzGjFGFr+Xv20JrQUizU4=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.ikrs475e5v.js"
@@ -1235,6 +1235,18 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
         "cache": "force-cache"
       },
       {
+        "virtualPath": "GestionGimnasio.Servicio.wasm",
+        "name": "GestionGimnasio.Servicio.p5wzxkuhnf.wasm",
+        "hash": "sha256-jT71PmlPgh4sC7BLmzXRr19LkY3NhdXk6G35ZBee/94=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "GestionGimnasio.Shared.wasm",
+        "name": "GestionGimnasio.Shared.bpceqegu5i.wasm",
+        "hash": "sha256-MfY8FstU4LGeNw6DAQmZJL/lyMQ8whgqOpFlQ+gZMG8=",
+        "cache": "force-cache"
+      },
+      {
         "virtualPath": "Microsoft.DotNet.HotReload.WebAssembly.Browser.wasm",
         "name": "Microsoft.DotNet.HotReload.WebAssembly.Browser.r0uvx0ebhi.wasm",
         "hash": "sha256-RfVSLzqQEeeGURXg5fCxB/7pjzOLGNHC2cDbIQC7thQ=",
@@ -1242,16 +1254,28 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "GestionGimnasio.Cliente.wasm",
-        "name": "GestionGimnasio.Cliente.2b40guu0i4.wasm",
-        "hash": "sha256-zj0vnGxu+g4uoc97VOpiWBCTHtcytypWLBDhA2dc9yw=",
+        "name": "GestionGimnasio.Cliente.hi6du7kjeh.wasm",
+        "hash": "sha256-ObziCYFr2r426mw5whkCfBLaVilS2aFDDAbBcsHnlb0=",
         "cache": "force-cache"
       }
     ],
     "pdb": [
       {
+        "virtualPath": "GestionGimnasio.Servicio.pdb",
+        "name": "GestionGimnasio.Servicio.gp5q0e8lay.pdb",
+        "hash": "sha256-nKjCmKbj4F+dvT/FGq7bRLm+ynit33UM0qZMv+s4bEk=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "GestionGimnasio.Shared.pdb",
+        "name": "GestionGimnasio.Shared.ohpee7tnj2.pdb",
+        "hash": "sha256-jFIzhXj9P0QXoyWds7RxeFIWqohylc8BTYC+IRBCMek=",
+        "cache": "force-cache"
+      },
+      {
         "virtualPath": "GestionGimnasio.Cliente.pdb",
-        "name": "GestionGimnasio.Cliente.m5yhln1ez9.pdb",
-        "hash": "sha256-1rd2wjmnway4TP9kz0WDlGEt217CYSWu+4ndiM2RO9w=",
+        "name": "GestionGimnasio.Cliente.b3a849daki.pdb",
+        "hash": "sha256-F33K2N91UhMw6Kymbr1W4UdzuCgNbII3y4bj+SDzjTo=",
         "cache": "force-cache"
       }
     ],

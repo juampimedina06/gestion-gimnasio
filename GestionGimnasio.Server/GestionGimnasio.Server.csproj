@@ -8,10 +8,16 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="10.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\GestionGimnasio.Cliente\GestionGimnasio.Cliente.csproj" />
+    <ProjectReference Include="..\GestionGimnasio.BD\GestionGimnasio.BD.csproj" />
   </ItemGroup>
 
 </Project>

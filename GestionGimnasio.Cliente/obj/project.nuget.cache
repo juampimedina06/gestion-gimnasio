@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sGjTbzHBk84=",
+  "dgSpecHash": "BRGuzMbZhpo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Juampi\\Downloads\\Programacion\\c#\\GestionGimnasio.Server\\GestionGimnasio.Cliente\\GestionGimnasio.Cliente.csproj",
+  "projectFilePath": "C:\\Users\\Juampi\\source\\repos\\gestion-gimnasio\\GestionGimnasio.Cliente\\GestionGimnasio.Cliente.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Juampi\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.9\\microsoft.aspnetcore.app.internal.assets.10.0.9.nupkg.sha512",
     "C:\\Users\\Juampi\\.nuget\\packages\\microsoft.aspnetcore.authorization\\10.0.9\\microsoft.aspnetcore.authorization.10.0.9.nupkg.sha512",
