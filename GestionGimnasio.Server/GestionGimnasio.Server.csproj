@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\GestionGimnasio.Cliente\GestionGimnasio.Cliente.csproj" />
     <ProjectReference Include="..\GestionGimnasio.BD\GestionGimnasio.BD.csproj" />
+    <ProjectReference Include="..\GestionGimnasio.Repositorio\GestionGimnasio.Repositorio.csproj" />
   </ItemGroup>
 
 </Project>

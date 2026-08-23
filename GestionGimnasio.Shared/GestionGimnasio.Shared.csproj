@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GestionGimnasio.BD\GestionGimnasio.BD.csproj" />
+  </ItemGroup>
+
 </Project>

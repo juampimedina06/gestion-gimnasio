@@ -1237,6 +1237,19 @@
           "bin/placeholder/GestionGimnasio.Cliente.dll": {}
         }
       },
+      "GestionGimnasio.Repositorio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "GestionGimnasio.BD": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GestionGimnasio.Repositorio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GestionGimnasio.Repositorio.dll": {}
+        }
+      },
       "GestionGimnasio.Servicio/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -1253,6 +1266,9 @@
       "GestionGimnasio.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "GestionGimnasio.BD": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/GestionGimnasio.Shared.dll": {}
         },
@@ -3719,6 +3735,11 @@
       "path": "../GestionGimnasio.Cliente/GestionGimnasio.Cliente.csproj",
       "msbuildProject": "../GestionGimnasio.Cliente/GestionGimnasio.Cliente.csproj"
     },
+    "GestionGimnasio.Repositorio/1.0.0": {
+      "type": "project",
+      "path": "../GestionGimnasio.Repositorio/GestionGimnasio.Repositorio.csproj",
+      "msbuildProject": "../GestionGimnasio.Repositorio/GestionGimnasio.Repositorio.csproj"
+    },
     "GestionGimnasio.Servicio/1.0.0": {
       "type": "project",
       "path": "../GestionGimnasio.Servicio/GestionGimnasio.Servicio.csproj",
@@ -3734,6 +3755,7 @@
     "net10.0": [
       "GestionGimnasio.BD >= 1.0.0",
       "GestionGimnasio.Cliente >= 1.0.0",
+      "GestionGimnasio.Repositorio >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 10.0.11",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.11",
       "Swashbuckle.AspNetCore >= 10.2.3"
@@ -3777,6 +3799,9 @@
             },
             "C:\\Users\\Juampi\\source\\repos\\gestion-gimnasio\\GestionGimnasio.Cliente\\GestionGimnasio.Cliente.csproj": {
               "projectPath": "C:\\Users\\Juampi\\source\\repos\\gestion-gimnasio\\GestionGimnasio.Cliente\\GestionGimnasio.Cliente.csproj"
+            },
+            "C:\\Users\\Juampi\\source\\repos\\gestion-gimnasio\\GestionGimnasio.Repositorio\\GestionGimnasio.Repositorio.csproj": {
+              "projectPath": "C:\\Users\\Juampi\\source\\repos\\gestion-gimnasio\\GestionGimnasio.Repositorio\\GestionGimnasio.Repositorio.csproj"
             }
           }
         }

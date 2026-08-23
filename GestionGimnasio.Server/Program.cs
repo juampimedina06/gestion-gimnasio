@@ -1,4 +1,5 @@
 using GestionGimnasio.BD.Datos;
+using GestionGimnasio.Repositorio.Repositorio;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,7 +17,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 builder.Services.AddRazorComponents();
-
+builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
 
 #endregion
 
