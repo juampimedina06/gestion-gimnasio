@@ -1,12 +1,13 @@
 using System.ComponentModel.DataAnnotations;
 using GestionGimnasio.BD.Datos.Entity.Enums;
+using GestionGimnasio.BD.Datos.Entity.Interfaces;
 
 namespace GestionGimnasio.BD.Datos.Entity;
 
 /// <summary>
 /// Cliente socio del gimnasio, vinculado opcionalmente a una cuenta de usuario.
 /// </summary>
-public class Cliente
+public class Cliente : IId
 {
     public int Id { get; set; }
 

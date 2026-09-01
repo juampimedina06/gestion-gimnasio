@@ -1,11 +1,12 @@
 using System.ComponentModel.DataAnnotations;
+using GestionGimnasio.BD.Datos.Entity.Interfaces;
 
 namespace GestionGimnasio.BD.Datos.Entity;
 
 /// <summary>
 /// Usuario con acceso al sistema (admin o personal trainer).
 /// </summary>
-public class Usuario
+public class Usuario : IId
 {
     public int Id { get; set; }
 

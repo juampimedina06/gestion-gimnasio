@@ -11,6 +11,7 @@ public class Plan
     public PlanPase Pase { get; set; }
     public PlanTipo Tipo { get; set; }
     public PlanValidez DiasValidez { get; set; }
+    public int DiasPorSemana { get; set; }
     public decimal Precio { get; set; }
     public int ToleranciaDias { get; set; } = 5;
 

@@ -1241,7 +1241,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "GestionGimnasio.BD": "1.0.0"
+          "GestionGimnasio.BD": "1.0.0",
+          "GestionGimnasio.Shared": "1.0.0"
         },
         "compile": {
           "bin/placeholder/GestionGimnasio.Repositorio.dll": {}

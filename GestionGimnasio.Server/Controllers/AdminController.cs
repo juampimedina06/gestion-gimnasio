@@ -1,9 +1,7 @@
-﻿using GestionGimnasio.BD.Datos;
-using GestionGimnasio.BD.Datos.Entity;
-using GestionGimnasio.Repositorio.Repositorio;
+﻿using GestionGimnasio.Repositorio.Repositorio;
 using GestionGimnasio.Shared.DTO;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+
 
 namespace GestionGimnasio.Server.Controllers
 {
@@ -11,100 +9,50 @@ namespace GestionGimnasio.Server.Controllers
     [Route("admin")] //ruta base para las solicitudes HTTP relacionadas con usuarios
     public class AdminController : ControllerBase //clase que hereda de ControllerBase para manejar solicitudes HTTP relacionadas con usuarios
     {
-        private readonly AppDbContext context; //variable privada para almacenar el contexto de la base de datos
-        private readonly IUsuarioRepositorio repositorio;
+        private readonly IUsuarioRepositorio usuarioRepositorio;
 
-        public AdminController(AppDbContext context,
-            IUsuarioRepositorio repositorio)
+        public AdminController(IUsuarioRepositorio usuarioRepositorio)
         {
-            this.context = context; //inicializa el contexto de la base de datos
-            this.repositorio = repositorio; //inicializa el repositorio de usuarios
+            this.usuarioRepositorio = usuarioRepositorio;
         }
 
-        //[HttpGet]
-        //public string Get()
-        //{
-        //    return "Hola desde UsuarioController"; 
-        //}
-
-        [HttpGet] //admin/usuario
-        public async Task<ActionResult<List<Usuario>>> GetUsuario()
+        //POST : /admin/registro-usuario
+        //dar de alta personal trainer. Solo PT, el admin se crea por seeding.
+        [HttpPost("registro-usuario")]
+        public async Task<ActionResult<int>> RegistrarUsuario(UsuarioDTO usuarioDTO)
         {
-            //var usuarios = await context.Usuarios.ToListAsync();
-            //if (usuarios == null || usuarios.Count == 0)
-            //{
-            //    return NotFound("No se encontraron usuarios");
-            //}
-            //return Ok(usuarios); //HTTP 200 OK
-
-            var lista = await repositorio.Select();
-            if (lista == null) 
+            var usuario = await usuarioRepositorio.RegistrarPersonalTrainer(usuarioDTO);
+            if (usuario is null)
             {
-                return NotFound("No se encontre elementos de la lista");
+                return BadRequest("Ya existe un usuario con ese email.");
             }
-            return Ok(lista);
+
+            return Ok(usuario.Id);
         }
 
-
-        [HttpGet("lista-usuarios")] //admin/lista-usuarios
-        public async Task<ActionResult<List<UsuarioListadoDTO>>> GetListaUsuario()
+        //POST : /admin/login
+        //para q el admin y el personal trainer puedan loguearse
+        [HttpPost("login")]
+        public async Task<ActionResult<LoginRespuestaDTO>> Login(LoginDTO loginDTO)
         {
-            var lista = await context.Usuarios
-                .Select(p => new UsuarioListadoDTO
-                {
-                    Id = p.Id,
-                    Email = p.Email,
-                    Activo = p.Activo,
-                    IdRol = p.IdRol,
-                    Rol = new RolDTO
-                    {
-                        Id = p.Rol.Id,
-                        Tipo = p.Rol.Tipo
-                    }
-                })
-                .ToListAsync();
-
-            if (lista == null || lista.Count == 0)
+            var usuario = await usuarioRepositorio.Login(loginDTO.Email, loginDTO.Contrasena);
+            if (usuario is null)
             {
-                return NotFound("No se encontraron usuarios");
+                return Unauthorized("Credenciales inválidas.");
             }
-            return Ok(lista); //HTTP 200 OK>
-        }
 
-
-        //ver un usuario en detalle
-        [HttpGet("{id:int}")] //admin/usuario/{id}
-        public async Task<ActionResult<UsuarioDTO>> GetById(int id)
-        {
-            var entidad = await context.Usuarios.FirstOrDefaultAsync(x => x.Id == id);
-           if(entidad == null)
+            LoginRespuestaDTO respuesta = new LoginRespuestaDTO
             {
-                return NotFound($"No existe el usuario con el id: {id}");
-            }
-            UsuarioDTO DTO = new UsuarioDTO
-            {
-                Id = entidad.Id,
-                Nombre = entidad.Nombre,
-                Apellido = entidad.Apellido,
-                Email = entidad.Email,
-                Contrasena = entidad.Contrasena,
-                Activo = entidad.Activo,
-                IdRol = entidad.IdRol,
-                Rol = new Rol
-                {
-                    Id = entidad.Rol.Id,
-                    Tipo = entidad.Rol.Tipo
-                }
+                Id = usuario.Id,
+                Nombre = usuario.Nombre,
+                Apellido = usuario.Apellido,
+                Email = usuario.Email,
+                IdRol = usuario.IdRol,
+                Rol = new RolDTO { Id = usuario.Rol.Id, Tipo = usuario.Rol.Tipo }
             };
 
-            return Ok(DTO);
+            return Ok(respuesta);
         }
-
-
-
-
-
-
     }
-      
+
 }

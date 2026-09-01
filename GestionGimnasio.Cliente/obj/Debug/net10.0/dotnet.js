@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "GestionGimnasio.Cliente",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-bMEsVe0m7rPHKeHipxz0IXFk+tCIgZ6Ng3ntHnvDq3Y=",
+    "hash": "sha256-/RvQouNOe3NMgae+EcFu0UomK6n2vH/ZaJAGwC1q2YQ=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.ikrs475e5v.js"
@@ -1404,20 +1404,20 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "GestionGimnasio.BD.wasm",
-        "name": "GestionGimnasio.BD.4x8hcoh9gf.wasm",
-        "hash": "sha256-mHykrZKrCLeIgDjt9z5Sw+qCqPMOdGp2NQvni/xTTw4=",
+        "name": "GestionGimnasio.BD.4jpcdy20q0.wasm",
+        "hash": "sha256-wN4nN2ug9RrooH8jzX2PgTc9eVY7d0Z8/srWBHth+Ec=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "GestionGimnasio.Servicio.wasm",
-        "name": "GestionGimnasio.Servicio.kgncrahq42.wasm",
-        "hash": "sha256-PAtKOosJiXzgj8vprh6aPp904Mf+ihmTJ1+f7/L25D8=",
+        "name": "GestionGimnasio.Servicio.jei2sdpt29.wasm",
+        "hash": "sha256-q4n1YDIJ84kgnYNzAaBV27AfhsBpvt/giAC0a3TRJ90=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "GestionGimnasio.Shared.wasm",
-        "name": "GestionGimnasio.Shared.dhr3j6v0fc.wasm",
-        "hash": "sha256-H5dktuQ/MumW4mXO9FkwLNlSKLRdR2KPsL1Y6apdTZA=",
+        "name": "GestionGimnasio.Shared.z6vwrlzo2b.wasm",
+        "hash": "sha256-6wT+FUVlGKEYNUPW+lWAfIJ+SXB6yOk2KCZj5Exrprc=",
         "cache": "force-cache"
       },
       {
@@ -1428,34 +1428,34 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "GestionGimnasio.Cliente.wasm",
-        "name": "GestionGimnasio.Cliente.n6247juzif.wasm",
-        "hash": "sha256-8ehavbeGL47QZBf/k8jenB0iw5kn+ICMor/VuSB6rdY=",
+        "name": "GestionGimnasio.Cliente.svymidgbmi.wasm",
+        "hash": "sha256-6D/s4d1FLu+O+8p22kakuQykNe1JUl9ikCS8LLgCUVw=",
         "cache": "force-cache"
       }
     ],
     "pdb": [
       {
         "virtualPath": "GestionGimnasio.Servicio.pdb",
-        "name": "GestionGimnasio.Servicio.s8sne1zfem.pdb",
-        "hash": "sha256-vFA9PS1l5athX1/6UMA4HNrTpqCpzZFNkq4TvZWMtUY=",
+        "name": "GestionGimnasio.Servicio.phyi0mjjqs.pdb",
+        "hash": "sha256-43ghIAKqjEa1+ymR3Jgln9xaKdLtUh8hr1T7woTNOHc=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "GestionGimnasio.Shared.pdb",
-        "name": "GestionGimnasio.Shared.jqhnibps0c.pdb",
-        "hash": "sha256-i6cavcPgB3dgVz2MadwePp11NIHECn9etMjQJW9PxeM=",
+        "name": "GestionGimnasio.Shared.kfb3lfrwmt.pdb",
+        "hash": "sha256-oN30lFNZCvpFJ+sIcp0T9IfIDiGEYG9s6BqNTucN/7k=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "GestionGimnasio.BD.pdb",
-        "name": "GestionGimnasio.BD.6dezohjnhb.pdb",
-        "hash": "sha256-eh/o9oAkI4ZHelCYAN0YIc4ikk16xZIKMhd6FPH2Kgc=",
+        "name": "GestionGimnasio.BD.yj52pnq3g8.pdb",
+        "hash": "sha256-nl0Z18B9dTwM37M7S26hY7/NcxROkR2q65ePjs/aHN8=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "GestionGimnasio.Cliente.pdb",
-        "name": "GestionGimnasio.Cliente.bfvcd9v51a.pdb",
-        "hash": "sha256-F0vJgYzTq6BZ2VXGbRfmIzkcVahyuSwDiZAICUEtudY=",
+        "name": "GestionGimnasio.Cliente.nnrwqzirvl.pdb",
+        "hash": "sha256-/QWX2NLA+o6YT0wiHxOD2gzHF+/26ryWate4tRsx4+w=",
         "cache": "force-cache"
       }
     ],

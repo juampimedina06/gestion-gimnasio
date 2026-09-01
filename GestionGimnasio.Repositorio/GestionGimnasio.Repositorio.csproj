@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GestionGimnasio.BD\GestionGimnasio.BD.csproj" />
+    <ProjectReference Include="..\GestionGimnasio.Shared\GestionGimnasio.Shared.csproj" />
   </ItemGroup>
 
 </Project>

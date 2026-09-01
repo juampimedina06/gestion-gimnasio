@@ -898,7 +898,8 @@
       },
       "GestionGimnasio.Repositorio/1.0.0": {
         "dependencies": {
-          "GestionGimnasio.BD": "1.0.0"
+          "GestionGimnasio.BD": "1.0.0",
+          "GestionGimnasio.Shared": "1.0.0"
         },
         "runtime": {
           "GestionGimnasio.Repositorio.dll": {

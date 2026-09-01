@@ -786,6 +786,9 @@
             "projectReferences": {
               "C:\\Users\\Juampi\\source\\repos\\gestion-gimnasio\\GestionGimnasio.BD\\GestionGimnasio.BD.csproj": {
                 "projectPath": "C:\\Users\\Juampi\\source\\repos\\gestion-gimnasio\\GestionGimnasio.BD\\GestionGimnasio.BD.csproj"
+              },
+              "C:\\Users\\Juampi\\source\\repos\\gestion-gimnasio\\GestionGimnasio.Shared\\GestionGimnasio.Shared.csproj": {
+                "projectPath": "C:\\Users\\Juampi\\source\\repos\\gestion-gimnasio\\GestionGimnasio.Shared\\GestionGimnasio.Shared.csproj"
               }
             }
           }
