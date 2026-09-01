@@ -73,7 +73,7 @@ namespace GestionGimnasio.Server.Controllers
 
 
         //ver un usuario en detalle
-        [HttpGet("{id : int}")] //admin/usuario/{id}
+        [HttpGet("{id:int}")] //admin/usuario/{id}
         public async Task<ActionResult<UsuarioDTO>> GetById(int id)
         {
             var entidad = await context.Usuarios.FirstOrDefaultAsync(x => x.Id == id);

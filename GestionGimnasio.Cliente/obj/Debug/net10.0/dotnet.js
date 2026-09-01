@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "GestionGimnasio.Cliente",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-sUN4RbnpIJ03Ut/OEbleZXGzGjFGFr+Xv20JrQUizU4=",
+    "hash": "sha256-bMEsVe0m7rPHKeHipxz0IXFk+tCIgZ6Ng3ntHnvDq3Y=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.ikrs475e5v.js"
@@ -59,6 +59,18 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
     ],
     "assembly": [
       {
+        "virtualPath": "Azure.Core.wasm",
+        "name": "Azure.Core.tk33uqcbyk.wasm",
+        "hash": "sha256-3ToLFvtfoxBHy/FONTLBziTM+98M6hiylqnGYOwTw2g=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Azure.Identity.wasm",
+        "name": "Azure.Identity.0dptsq5fk5.wasm",
+        "hash": "sha256-pHngup0gXVAdfxPSvG9xYrvZwSP2LUhFWSyvMtPHxUY=",
+        "cache": "force-cache"
+      },
+      {
         "virtualPath": "Microsoft.AspNetCore.Authorization.wasm",
         "name": "Microsoft.AspNetCore.Authorization.wp5b4xwrtz.wasm",
         "hash": "sha256-TKbWsc5gCE+04slSkrqeNGTb7K8LiRW72Tm+1gzKxqU=",
@@ -92,6 +104,54 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
         "virtualPath": "Microsoft.AspNetCore.Metadata.wasm",
         "name": "Microsoft.AspNetCore.Metadata.bhaqktdl3q.wasm",
         "hash": "sha256-j++RGo33BhgVa0g5y83+TSz6cs3qmH+A5uEXVKZhtr8=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.Bcl.AsyncInterfaces.wasm",
+        "name": "Microsoft.Bcl.AsyncInterfaces.cejwwy890b.wasm",
+        "hash": "sha256-NNIpbE3kgpNajuEB8IiMmzURems5JRUSriD/qNIPrqY=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.Data.SqlClient.wasm",
+        "name": "Microsoft.Data.SqlClient.chgcoywwkl.wasm",
+        "hash": "sha256-kEGE5HoisvvCQALGyVLTWzbUD6m8fcSTCWoXayWrgxA=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.EntityFrameworkCore.wasm",
+        "name": "Microsoft.EntityFrameworkCore.ee4iltpkgf.wasm",
+        "hash": "sha256-xj9N/xoTVo0K5ZCIJzK0igUsvFcZ6rpB+yfHL36Vl0A=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.EntityFrameworkCore.Abstractions.wasm",
+        "name": "Microsoft.EntityFrameworkCore.Abstractions.t4nduqay14.wasm",
+        "hash": "sha256-o6OUdj1nmFeB610gxkevJSfvnxCTQKfoZi0UKjvUjiU=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.EntityFrameworkCore.Relational.wasm",
+        "name": "Microsoft.EntityFrameworkCore.Relational.3037lou61f.wasm",
+        "hash": "sha256-8/+EGtoWerhw1fDDkRid5pD+v0yITbkIO/zjNm/BJIY=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.EntityFrameworkCore.SqlServer.wasm",
+        "name": "Microsoft.EntityFrameworkCore.SqlServer.rl4ewthbrg.wasm",
+        "hash": "sha256-MW1V+Y6AhAz9iceZZyhHLt+q+LF/8TZDnw2yziQpTv4=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.Extensions.Caching.Abstractions.wasm",
+        "name": "Microsoft.Extensions.Caching.Abstractions.klw2yjoq9t.wasm",
+        "hash": "sha256-eGBzuR9t5onv+3quLrNnTYLMQwqqmJnaBgdINDbxQsw=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.Extensions.Caching.Memory.wasm",
+        "name": "Microsoft.Extensions.Caching.Memory.z3wxr82b2w.wasm",
+        "hash": "sha256-zxs+8o0vnfRXUG/ll2YOuxO6CQw4Y/6qbyVhuBTVpf4=",
         "cache": "force-cache"
       },
       {
@@ -203,6 +263,66 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
         "cache": "force-cache"
       },
       {
+        "virtualPath": "Microsoft.Identity.Client.wasm",
+        "name": "Microsoft.Identity.Client.x3gr6qdw3e.wasm",
+        "hash": "sha256-szf3LKtx6GWkxS1PPjJ+ZJKmyGVsGVi6ecWG6/0YjAM=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.Identity.Client.Broker.wasm",
+        "name": "Microsoft.Identity.Client.Broker.bjghkrgrvh.wasm",
+        "hash": "sha256-9w0RaF5f8eF/T8hPpRpICaLRYCoWLZFPaVAHaIXAK68=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.Identity.Client.Extensions.Msal.wasm",
+        "name": "Microsoft.Identity.Client.Extensions.Msal.jza794ttpb.wasm",
+        "hash": "sha256-X3x90ashCCcNGMEQjpRoY8RgyN1xU1+vBv2Ne7ybfL4=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.Identity.Client.NativeInterop.wasm",
+        "name": "Microsoft.Identity.Client.NativeInterop.937aa45595.wasm",
+        "hash": "sha256-m1M+ok/FnC2CJULgOD98Fg2KY6L1AmDVB9qBmYqGlWM=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.IdentityModel.Abstractions.wasm",
+        "name": "Microsoft.IdentityModel.Abstractions.fm59ec96sb.wasm",
+        "hash": "sha256-txISEwQ8dpwegJsbZu2vGfd8k4q6XeZuHakiiyNPVXs=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.IdentityModel.JsonWebTokens.wasm",
+        "name": "Microsoft.IdentityModel.JsonWebTokens.cxyxl1fpw4.wasm",
+        "hash": "sha256-EDjT0oUctyIFx92oz/BslCa3kmLMKgUoNbKvEHaadg8=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.IdentityModel.Logging.wasm",
+        "name": "Microsoft.IdentityModel.Logging.a1qebn9qtt.wasm",
+        "hash": "sha256-ss2LB3619euRtb7la7zoT6dDsNtoRk0DfaRrHzMfW/U=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.IdentityModel.Protocols.wasm",
+        "name": "Microsoft.IdentityModel.Protocols.homtf5mctj.wasm",
+        "hash": "sha256-ERvqChyVYiFjNDbPkS0sOag9BFOOIe8nWTEiBVLRbeA=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.IdentityModel.Protocols.OpenIdConnect.wasm",
+        "name": "Microsoft.IdentityModel.Protocols.OpenIdConnect.45hz3ik893.wasm",
+        "hash": "sha256-iOxZiIbSNsoZ8tto2rBtzh77EzkRa0YcPb36KYr6IdE=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.IdentityModel.Tokens.wasm",
+        "name": "Microsoft.IdentityModel.Tokens.2wpk0uxouu.wasm",
+        "hash": "sha256-7vcEr6jIbsLxtJsjKqRaUjlXzJK74GyMDqcqitijPxY=",
+        "cache": "force-cache"
+      },
+      {
         "virtualPath": "Microsoft.JSInterop.wasm",
         "name": "Microsoft.JSInterop.zhfbg74p0e.wasm",
         "hash": "sha256-ydDa5CE8UQzUry68CwEPAVbu361httdsDXT2AQmuMK0=",
@@ -212,6 +332,54 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
         "virtualPath": "Microsoft.JSInterop.WebAssembly.wasm",
         "name": "Microsoft.JSInterop.WebAssembly.vi1uw8swyy.wasm",
         "hash": "sha256-yZy5My09/M7owHVzBcnK3BPDrUtQH3/wmFTaiPscAgo=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.SqlServer.Server.wasm",
+        "name": "Microsoft.SqlServer.Server.yamodpu5qp.wasm",
+        "hash": "sha256-Fig+5hq00gGQlXAgSnyFlUlWyhlx9f+yPJb4INt3gNc=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "System.ClientModel.wasm",
+        "name": "System.ClientModel.z32lks1ys4.wasm",
+        "hash": "sha256-7xG5rfxkVVx3q4iuAhqtZFHUzTC6u7vGP1Ej2sGPZWU=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "System.Configuration.ConfigurationManager.wasm",
+        "name": "System.Configuration.ConfigurationManager.3u8hbfl5qw.wasm",
+        "hash": "sha256-+10jfHnt99kNZDtk9POqpw6foFU9RHQchtieX93Pdp8=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "System.Diagnostics.EventLog.wasm",
+        "name": "System.Diagnostics.EventLog.11ehrecboc.wasm",
+        "hash": "sha256-uyvR4GUPzOWEm8Qcpg0QxNN+t1ziB8wkgWKHESIzxcg=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "System.IdentityModel.Tokens.Jwt.wasm",
+        "name": "System.IdentityModel.Tokens.Jwt.28de5g3cun.wasm",
+        "hash": "sha256-jjAptokOXSXKs5qsKrmqiqE1SuTQT3MMuEZf2+qUlgc=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "System.Memory.Data.wasm",
+        "name": "System.Memory.Data.zc23isi853.wasm",
+        "hash": "sha256-s5CbdXscJVkDduT5vhNP3t+KDZ3ekAncdTrWwh9IHRc=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "System.Security.Cryptography.Pkcs.wasm",
+        "name": "System.Security.Cryptography.Pkcs.b0gz05vzpn.wasm",
+        "hash": "sha256-yx9Z1+bkUT5y8xKPKTCqUs/7AxiLuKJFQf2JoDBz5aE=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "System.Security.Cryptography.ProtectedData.wasm",
+        "name": "System.Security.Cryptography.ProtectedData.ftt1ptxwo8.wasm",
+        "hash": "sha256-M6pH3Ck8anAwVMRBbjDXUx6zCYJriFQujLJ3nI7zfgI=",
         "cache": "force-cache"
       },
       {
@@ -1235,15 +1403,21 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
         "cache": "force-cache"
       },
       {
+        "virtualPath": "GestionGimnasio.BD.wasm",
+        "name": "GestionGimnasio.BD.4x8hcoh9gf.wasm",
+        "hash": "sha256-mHykrZKrCLeIgDjt9z5Sw+qCqPMOdGp2NQvni/xTTw4=",
+        "cache": "force-cache"
+      },
+      {
         "virtualPath": "GestionGimnasio.Servicio.wasm",
-        "name": "GestionGimnasio.Servicio.p5wzxkuhnf.wasm",
-        "hash": "sha256-jT71PmlPgh4sC7BLmzXRr19LkY3NhdXk6G35ZBee/94=",
+        "name": "GestionGimnasio.Servicio.kgncrahq42.wasm",
+        "hash": "sha256-PAtKOosJiXzgj8vprh6aPp904Mf+ihmTJ1+f7/L25D8=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "GestionGimnasio.Shared.wasm",
-        "name": "GestionGimnasio.Shared.bpceqegu5i.wasm",
-        "hash": "sha256-MfY8FstU4LGeNw6DAQmZJL/lyMQ8whgqOpFlQ+gZMG8=",
+        "name": "GestionGimnasio.Shared.dhr3j6v0fc.wasm",
+        "hash": "sha256-H5dktuQ/MumW4mXO9FkwLNlSKLRdR2KPsL1Y6apdTZA=",
         "cache": "force-cache"
       },
       {
@@ -1254,31 +1428,143 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "GestionGimnasio.Cliente.wasm",
-        "name": "GestionGimnasio.Cliente.hi6du7kjeh.wasm",
-        "hash": "sha256-ObziCYFr2r426mw5whkCfBLaVilS2aFDDAbBcsHnlb0=",
+        "name": "GestionGimnasio.Cliente.n6247juzif.wasm",
+        "hash": "sha256-8ehavbeGL47QZBf/k8jenB0iw5kn+ICMor/VuSB6rdY=",
         "cache": "force-cache"
       }
     ],
     "pdb": [
       {
         "virtualPath": "GestionGimnasio.Servicio.pdb",
-        "name": "GestionGimnasio.Servicio.gp5q0e8lay.pdb",
-        "hash": "sha256-nKjCmKbj4F+dvT/FGq7bRLm+ynit33UM0qZMv+s4bEk=",
+        "name": "GestionGimnasio.Servicio.s8sne1zfem.pdb",
+        "hash": "sha256-vFA9PS1l5athX1/6UMA4HNrTpqCpzZFNkq4TvZWMtUY=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "GestionGimnasio.Shared.pdb",
-        "name": "GestionGimnasio.Shared.ohpee7tnj2.pdb",
-        "hash": "sha256-jFIzhXj9P0QXoyWds7RxeFIWqohylc8BTYC+IRBCMek=",
+        "name": "GestionGimnasio.Shared.jqhnibps0c.pdb",
+        "hash": "sha256-i6cavcPgB3dgVz2MadwePp11NIHECn9etMjQJW9PxeM=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "GestionGimnasio.BD.pdb",
+        "name": "GestionGimnasio.BD.6dezohjnhb.pdb",
+        "hash": "sha256-eh/o9oAkI4ZHelCYAN0YIc4ikk16xZIKMhd6FPH2Kgc=",
         "cache": "force-cache"
       },
       {
         "virtualPath": "GestionGimnasio.Cliente.pdb",
-        "name": "GestionGimnasio.Cliente.b3a849daki.pdb",
-        "hash": "sha256-F33K2N91UhMw6Kymbr1W4UdzuCgNbII3y4bj+SDzjTo=",
+        "name": "GestionGimnasio.Cliente.bfvcd9v51a.pdb",
+        "hash": "sha256-F0vJgYzTq6BZ2VXGbRfmIzkcVahyuSwDiZAICUEtudY=",
         "cache": "force-cache"
       }
     ],
+    "satelliteResources": {
+      "cs": [
+        {
+          "virtualPath": "Microsoft.Data.SqlClient.resources.wasm",
+          "name": "Microsoft.Data.SqlClient.resources.77b2lvmzy3.wasm",
+          "hash": "sha256-M9ZRQaO8kxJ2ugfVXWS8RRkSD5EarcggzSnCJpGmz4s=",
+          "cache": "force-cache"
+        }
+      ],
+      "de": [
+        {
+          "virtualPath": "Microsoft.Data.SqlClient.resources.wasm",
+          "name": "Microsoft.Data.SqlClient.resources.wviv03785n.wasm",
+          "hash": "sha256-pDIdgQfZv2KkOn3YgDOXa1YyUewWKxlAUOqCJnouEeA=",
+          "cache": "force-cache"
+        }
+      ],
+      "es": [
+        {
+          "virtualPath": "Microsoft.Data.SqlClient.resources.wasm",
+          "name": "Microsoft.Data.SqlClient.resources.m1m6i6rzd7.wasm",
+          "hash": "sha256-5rDrmk8oO+6yeSdX/IxuW6vUF5RYl8pSFjwhPUYrDVk=",
+          "cache": "force-cache"
+        }
+      ],
+      "fr": [
+        {
+          "virtualPath": "Microsoft.Data.SqlClient.resources.wasm",
+          "name": "Microsoft.Data.SqlClient.resources.bgsc4zb2kj.wasm",
+          "hash": "sha256-CztG0B3jwC5+p7VB0gCNwoENZ6mA5tD7skE1xjnyeD4=",
+          "cache": "force-cache"
+        }
+      ],
+      "it": [
+        {
+          "virtualPath": "Microsoft.Data.SqlClient.resources.wasm",
+          "name": "Microsoft.Data.SqlClient.resources.yjed0ndxmq.wasm",
+          "hash": "sha256-EqkpMKlG3zDAKYm7QyEQPX7DwiMUQZv0OEoFcd6WEj8=",
+          "cache": "force-cache"
+        }
+      ],
+      "ja": [
+        {
+          "virtualPath": "Microsoft.Data.SqlClient.resources.wasm",
+          "name": "Microsoft.Data.SqlClient.resources.5z8paatt8p.wasm",
+          "hash": "sha256-sbv6XUUpQNlNIiNQYJNXMS8MLjfQzz0uLU8j7Q4xtUQ=",
+          "cache": "force-cache"
+        }
+      ],
+      "ko": [
+        {
+          "virtualPath": "Microsoft.Data.SqlClient.resources.wasm",
+          "name": "Microsoft.Data.SqlClient.resources.8kf0f1qoxd.wasm",
+          "hash": "sha256-OP5RQr/MOeeqIMGCWJfuztrp+tq8PWsKzQd7C4fopag=",
+          "cache": "force-cache"
+        }
+      ],
+      "pl": [
+        {
+          "virtualPath": "Microsoft.Data.SqlClient.resources.wasm",
+          "name": "Microsoft.Data.SqlClient.resources.rrgzggvgop.wasm",
+          "hash": "sha256-p39Q0Og/I/UT603B8CfqXA8HVFoiMvLs/YgK7JZlD/4=",
+          "cache": "force-cache"
+        }
+      ],
+      "pt-BR": [
+        {
+          "virtualPath": "Microsoft.Data.SqlClient.resources.wasm",
+          "name": "Microsoft.Data.SqlClient.resources.uu9czzvln7.wasm",
+          "hash": "sha256-5lsfmF6XfVAhkNhPU6kgkw5Bg+EMc7qwyjECobgEQsQ=",
+          "cache": "force-cache"
+        }
+      ],
+      "ru": [
+        {
+          "virtualPath": "Microsoft.Data.SqlClient.resources.wasm",
+          "name": "Microsoft.Data.SqlClient.resources.mgil6oa76u.wasm",
+          "hash": "sha256-ttZQloxwmfwgl/vuMssjfkXclR4VsKX1W2bG0ofQCN0=",
+          "cache": "force-cache"
+        }
+      ],
+      "tr": [
+        {
+          "virtualPath": "Microsoft.Data.SqlClient.resources.wasm",
+          "name": "Microsoft.Data.SqlClient.resources.igb84u024i.wasm",
+          "hash": "sha256-/tdLMYijrjylPP0B1llORSkb9/XPCIm4E4KYbMFvcMA=",
+          "cache": "force-cache"
+        }
+      ],
+      "zh-Hans": [
+        {
+          "virtualPath": "Microsoft.Data.SqlClient.resources.wasm",
+          "name": "Microsoft.Data.SqlClient.resources.ij1liuqlk8.wasm",
+          "hash": "sha256-8podJ+LJ/AqxZNrll/wFuY0Pw47MNG+wyFDI/aY9cO8=",
+          "cache": "force-cache"
+        }
+      ],
+      "zh-Hant": [
+        {
+          "virtualPath": "Microsoft.Data.SqlClient.resources.wasm",
+          "name": "Microsoft.Data.SqlClient.resources.pw2q81prhp.wasm",
+          "hash": "sha256-OY14jB4j6ph2kal5/E09Zqi4yAfBhioHPC+3zagT5w8=",
+          "cache": "force-cache"
+        }
+      ]
+    },
     "libraryInitializers": [
       {
         "name": "_framework/Microsoft.DotNet.HotReload.WebAssembly.Browser.99zm1jdh75.lib.module.js"
@@ -1315,6 +1601,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
         "System.Net.Http.WasmEnableStreamingResponse": true,
         "System.Net.SocketsHttpHandler.Http3Support": false,
         "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+        "System.Reflection.NullabilityInfoContext.IsSupported": true,
         "System.Resources.ResourceManager.AllowCustomResourceTypes": false,
         "System.Resources.UseSystemResourceKeys": true,
         "System.Runtime.CompilerServices.RuntimeFeature.IsDynamicCodeSupported": true,

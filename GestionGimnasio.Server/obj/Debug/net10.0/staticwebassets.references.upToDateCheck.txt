@@ -18,3 +18,10 @@ C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Cliente\obj\Debug\
 C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Cliente\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Cliente\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Cliente\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Cliente\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Cliente\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Cliente\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Cliente\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Cliente\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Cliente\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Cliente\obj\Debug\net10.0\staticwebassets.build.json

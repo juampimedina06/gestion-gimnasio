@@ -10,6 +10,7 @@
         "dependencies": {
           "GestionGimnasio.BD": "1.0.0",
           "GestionGimnasio.Cliente": "1.0.0",
+          "GestionGimnasio.Repositorio": "1.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "10.0.11",
           "Microsoft.EntityFrameworkCore.Design": "10.0.11",
           "Swashbuckle.AspNetCore": "10.2.3"
@@ -895,6 +896,17 @@
           }
         }
       },
+      "GestionGimnasio.Repositorio/1.0.0": {
+        "dependencies": {
+          "GestionGimnasio.BD": "1.0.0"
+        },
+        "runtime": {
+          "GestionGimnasio.Repositorio.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "GestionGimnasio.Servicio/1.0.0": {
         "dependencies": {
           "GestionGimnasio.Shared": "1.0.0"
@@ -907,6 +919,9 @@
         }
       },
       "GestionGimnasio.Shared/1.0.0": {
+        "dependencies": {
+          "GestionGimnasio.BD": "1.0.0"
+        },
         "runtime": {
           "GestionGimnasio.Shared.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -1292,6 +1307,11 @@
       "sha512": ""
     },
     "GestionGimnasio.Cliente/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GestionGimnasio.Repositorio/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

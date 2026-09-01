@@ -1,7 +1,53 @@
 [
   {
     "ContainingType": "GestionGimnasio.Server.Controllers.AdminController",
-    "Method": "Get",
+    "Method": "GetUsuario",
+    "RelativePath": "admin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GestionGimnasio.BD.Datos.Entity.Usuario, GestionGimnasio.BD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestionGimnasio.Server.Controllers.AdminController",
+    "Method": "GetById",
+    "RelativePath": "admin/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestionGimnasio.Shared.DTO.UsuarioDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestionGimnasio.Server.Controllers.AdminController",
+    "Method": "GetListaUsuario",
     "RelativePath": "admin/lista-usuarios",
     "HttpMethod": "GET",
     "IsController": true,
@@ -9,7 +55,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.String",
+        "Type": "System.Collections.Generic.List\u00601[[GestionGimnasio.Shared.DTO.UsuarioListadoDTO, GestionGimnasio.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

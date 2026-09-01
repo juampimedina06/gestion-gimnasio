@@ -5,22 +5,28 @@ namespace GestionGimnasio.BD.Datos;
 
 public class AppDbContext : DbContext
 {
-    public DbSet<Usuario> Usuarios => {get; set;};
-    public DbSet<Rol> Roles => {get; set;};
-    public DbSet<Plan> Planes => { get; set; };
-    public DbSet<Cliente> Clientes => { get; set; };
-    public DbSet<Pago> Pagos => { get; set; };
-    public DbSet<Ingreso> Ingresos => { get; set; };
-    public DbSet<Notificacion> Notificaciones => { get; set; };
+    public DbSet<Usuario> Usuarios { get; set; } = null!;
+    public DbSet<Rol> Roles { get; set; } = null!;
+    public DbSet<Plan> Planes { get; set; } = null!;
+    public DbSet<Cliente> Clientes { get; set; } = null!;
+    public DbSet<Pago> Pagos { get; set; } = null!;
+    public DbSet<Ingreso> Ingresos { get; set; } = null!;
+    public DbSet<Notificacion> Notificaciones { get; set; } = null!;
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
     {
     }
 
-    protected AppDbContext()
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-    }
+        base.OnModelCreating(modelBuilder);
 
-    public AppDbContext(DbContextOptions options) : base(options)
-    {
+        // Configurar precisión y escala para propiedades decimal
+        modelBuilder.Entity<Pago>()
+            .Property(p => p.Monto)
+            .HasPrecision(18, 2);
+
+        modelBuilder.Entity<Plan>()
+            .Property(p => p.Precio)
+            .HasPrecision(18, 2);
     }
 }

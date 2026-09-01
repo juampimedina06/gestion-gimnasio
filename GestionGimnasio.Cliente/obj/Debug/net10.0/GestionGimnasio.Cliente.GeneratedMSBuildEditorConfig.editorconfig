@@ -33,10 +33,6 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Juampi/source/repos/gestion-gimnasio/GestionGimnasio.Cliente/Pages/Admin/ListaUsuarios.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTGlzdGFVc3Vhcmlvcy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Juampi/source/repos/gestion-gimnasio/GestionGimnasio.Cliente/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

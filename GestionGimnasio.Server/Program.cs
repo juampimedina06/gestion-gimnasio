@@ -5,12 +5,11 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 #region Servicios
-  var connectionString = builder.Configuration
-    .GetConnectionString("NOMBRE DE BASE DE DATOS") ??
-    throw new InvalidOperationException("La conexion no funciona")
-    ;
+string connectionString = builder.Configuration.GetConnectionString("ConnSqlServer")
+    ?? throw new InvalidOperationException("No existe la conexión con la base de datos.");
 
-builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ConnSqlServer")));
 
 
 builder.Services.AddSwaggerGen();

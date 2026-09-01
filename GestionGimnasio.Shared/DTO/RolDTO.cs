@@ -8,6 +8,6 @@ namespace GestionGimnasio.Shared.DTO
     public class RolDTO
     {
         public int Id { get; set; }
-        public TipoRol Tipo { get; set; } = new TipoRol();
+        public TipoRol Tipo { get; set; }
     }
 }

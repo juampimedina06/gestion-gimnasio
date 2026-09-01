@@ -163,7 +163,6 @@ C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Server\bin\Debug\n
 C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Server\bin\Debug\net10.0\GestionGimnasio.Shared.dll
 C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Server\bin\Debug\net10.0\GestionGimnasio.Servicio.pdb
 C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Server\bin\Debug\net10.0\GestionGimnasio.Shared.pdb
-C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Server\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Server\bin\Debug\net10.0\Humanizer.dll
 C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Server\bin\Debug\net10.0\Microsoft.Build.Framework.dll
 C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Server\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
@@ -248,3 +247,6 @@ C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Server\bin\Debug\n
 C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Server\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Server\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Server\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Server\bin\Debug\net10.0\GestionGimnasio.Repositorio.dll
+C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Server\bin\Debug\net10.0\GestionGimnasio.Repositorio.pdb
+C:\Users\Juampi\source\repos\gestion-gimnasio\GestionGimnasio.Server\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

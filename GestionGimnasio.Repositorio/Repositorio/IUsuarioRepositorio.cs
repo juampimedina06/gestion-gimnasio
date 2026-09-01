@@ -7,6 +7,5 @@ namespace GestionGimnasio.Repositorio.Repositorio
 {
     public interface IUsuarioRepositorio : IRepositorio<Usuario>
     {
-        Task Select();
     }
 }
