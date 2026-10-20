@@ -216,3 +216,6 @@ FodyWeavers.xsd
 
 # Blazor WASM compressed/static build artifacts
 *.gz.brotli
+
+# Tooling caches (gentle-ai skill registry)
+.atl/
