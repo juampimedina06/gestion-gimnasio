@@ -13,6 +13,16 @@ string connectionString = builder.Configuration.GetConnectionString("ConnSqlServ
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ConnSqlServer")));
 
+// 1. REGISTRO DE POLÍTICA CORS PARA REACT
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("FrontendPolicy", policy =>
+    {
+        policy.WithOrigins("http://localhost:5173")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
 
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllersWithViews();
@@ -111,6 +121,9 @@ app.UseBlazorFrameworkFiles();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+// 2. ACTIVACIÓN DEL MIDDLEWARE CORS (justo entre UseRouting y MapControllers)
+app.UseCors("FrontendPolicy");
 
 app.MapRazorPages();
 app.MapControllers();
